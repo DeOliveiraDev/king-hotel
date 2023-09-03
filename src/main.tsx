@@ -3,6 +3,6 @@ import ReactDOM from 'react-dom/client'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <h1>Hello World Test</h1>
+    <h1>Hello World Test Branch Ruleset</h1>
   </React.StrictMode>,
 )

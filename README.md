@@ -1,27 +1,39 @@
-# React + TypeScript + Vite
+# King Hotel
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is being developed as a study to enhance knowledge in the development of a simple website and its complexities, from creating the prototype in [Figma](https://www.figma.com/file/C7cSq0bSmx1OxwSXfEVzTi/King-Hotel?type=design&node-id=0-1&mode=design&t=xfKlH2VXucFDagzq-0) to its production deployment.
 
-Currently, two official plugins are available:
+## Installation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To install and run the project locally, follow these steps:
 
-## Expanding the ESLint configuration
+1. Clone this repository:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+   ```shell
+   git clone git@github.com:DeOliveiraDev/king-hotel.git
+   ```
 
-- Configure the top-level `parserOptions` property like this:
+2. Install the [Volta.sh](https://volta.sh/) version manager.
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+3. Verify if Volta has been installed correctly:
+   ```shell
+   volta --version
+   ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+4. Install Node dependencies:
+   ```shell
+   node install
+   ```
+
+5. Run the project with the following command:
+   ```shell
+   npm run dev
+   ```
+
+# Contribution
+This project is solely for study purposes and is not accepting external contributions at the moment.
+
+# License
+This project is licensed under the MIT License.
+
+# Project Status
+This project is in development.
